@@ -14,13 +14,13 @@ class ProductItem extends React.Component {
 	const {name, price} = this.props;
 
     return (
-    <div >
-		<span>{name}</span>
-		{` | `}
-		<span>{price}</span>
-		{` | `}
-		<button onClick={this.onDelete}>Delete</button>
-	</div>
+      <div >
+        <span>{name}</span>
+        {` | `}
+        <span>{price}</span>
+        {` | `}
+        <button onClick={this.onDelete}>Delete</button>
+      </div>
     );
   }
 }
